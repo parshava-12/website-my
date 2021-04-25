@@ -1,0 +1,65 @@
+body {
+    text-align:center;
+    padding-top: 80px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+.line {
+    height:4px;
+    background-color: aqua;
+    width:100px;
+    margin:8px auto;
+}
+.profile 
+{
+    width:300 px;
+    border-radius:50%;
+    
+}
+#welcome{
+    font-family: fantasy;
+    color:dimgrey;
+}
+#bio{
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    font-family: fantasy;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    position: fixed;
+    z-index:10;
+    background: white;
+}
+.links{
+    padding-left: 5px;
+    float: center;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color:white;
+    display: inline;
+}
+.links;hover{
+    background-color: aqua;
+}
+img{
+    width:400px;
+}
+#location iframe{
+ width:100%;  
+}
+#contact{
+    background:red;
+}
+#contact a{
+    color:white;
+    text-shadow: none;
+}
+#myphoto{
+    height:350px;
+    width:250px;
+    border-radius: 100px;
+}
